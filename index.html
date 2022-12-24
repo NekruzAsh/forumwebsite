@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <link href="main.css" type="text/css" rel="stylesheet">
+    <title>Sli Fox Inc - Homepage</title>
+    </head>
+        <body>
+            <div id="progressbar"></div>
+            <div id="scrollPath"></div>
+            <div id="top" class="intro">
+                <h1>Sli Fox Inc.</h1>
+                <h3>"In <strong>Sli Fox</strong> we make sure our players get the most out of gaming by cooperating and sharing their ideas"</h3>
+            </div>
+            <div class="exlink"><a href="./signup.html" target="_blank"><button class="button"><span>Sign up today to join the Sli Fox Community!</span></button></a></div>     
+            <div class="shortbox">
+                <div class="shortcuts">
+                    <a href="#top"><button class="introbutton"><span>Introduction</span></button></a><br>
+                    <a href="#para"><button class="infobutton"><span>What Sli Fox is</span></button></a><br>
+                    <a href="#list"><button class="listbutton"><span>List of Things to do</span></button></a>
+            
+                </div>
+            </div>
+        <div id="para" class="middle">
+                <h2>What Sli Fox is</h2>
+                <p>In <strong>Sli Fox</strong> we take forums and our beloved gamers and combine them into a big community where everyone helps each other out in games <em>respectfully</em>. If you're having a problem in a game where you can't pass a certain mission or if you want to obtain the certain achievements then <strong>Sli Fox</strong> is the place for you. Think of <a class="ign"  href="https://www.ign.com/" target="_blank">IGN</a> and all of those youtube tutorials combined together to make Sli Fox.</p>
+          </div>
+    <div id="list" class="list">
+            <h4>List of things you can do in the Sli Fox community:</h4>
+           <ul>
+            <li>Give feedback on completing missions and achievements in games</li>
+            <li>Petition for new games to be released</li>
+            <li>Rate games based on their cover pics (coming soon)</li>
+            </ul>
+    </div>
+           <div class="row">
+  <div class="column">
+        <img src="img32.jpg" alt="Snow" style="width:100%">
+   </div>
+  <div class="column">
+        <img src="controlle.jpeg" alt="Forest" style="width:100%">
+   </div>
+  <div class="column">
+        <img src="ps4.jpg" alt="Mountains" style="width:100%">
+  </div>
+ </div>
+         <script type="text/javascript">
+            let progress = document.getElementById('progressbar');
+            let totalHeight = document.body.scrollHeight - window.innerHeight;
+            window.onscroll = function(){
+                let progressHeight = (window.pageYOffset / totalHeight) * 100;
+                progress.style.height = progressHeight + "%";
+                
+            }
+            </script>
+            </body>
+</html>
