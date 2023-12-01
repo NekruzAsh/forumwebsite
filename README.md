@@ -1,8 +1,8 @@
 # Forum-Website Template
-A forum website that will work as a community of user forums that is based on the gaming community. The
-users will be able to signin/signup.
+A forum website that will work as a community of user forums that will be based on the gaming community. The
+users will be able to login/signup.
 
 # What I Learned
-* Designing a responsive website.
-* Developing a signup/signin page with high user-experience.
-* Linking JavaScript data with other file data and implementing different animations.
+* Programming a backend server to handle user account creation.
+* Developing a signup/login page with a practical user-experience design.
+* Implementing different JavaScript animations for a better user-experience.
