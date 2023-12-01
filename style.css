@@ -1,0 +1,284 @@
+body{   
+    background-color: #0F0E0E;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+.intro{
+   background-image: url(gameone.jpg);
+   height: 400px; 
+   background-position: bottom center;
+}
+
+.column {
+  float: left;
+  width: 32%;
+  padding: 5px;
+  border: 5px groove #FF2424;    
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h1{
+    font-family: 'Ruda', sans-serif;
+    font-size: 70px;
+    font-weight: 900;
+    margin: 0;
+    padding-top: 200px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration-style: dashed;
+    color: #E4E5E5;
+    text-shadow: 4px 4px #000000;
+}
+
+h2{
+  text-decoration-style: dashed;
+    color: #fff;
+    text-shadow: 2px 2px #000000; 
+    font-weight: 950;
+    font-family: serif;
+    font-size: 40px;
+    margin-bottom: 2px;
+}
+
+h3{ 
+    margin: 1rem;
+    border: 0px solid #fff;
+    color: #E3AAAA;
+    text-shadow: 4px 4px #000000; 
+}
+
+
+h4{
+    text-decoration-style: dashed;
+    color: #fff;
+    text-shadow: 2px 2px #000000;
+    margin-top: 70px
+}
+
+p{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Georgia, serif;
+    color: #E3AAAA;
+    font-weight: 500;
+}
+
+ul{
+    font-family: Georgia, serif;
+    color: #E3AAAA;
+    font-weight: 500;
+}
+
+.exlink{
+  border: 0px solid #fff;
+  background-color: #D7263D;
+  color: #FFF;
+  display: block;
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 16px;
+  padding: 30px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  height: 48px;
+  width: 500px;
+  margin: auto;
+}
+.button {
+  border-radius: 4px;
+  background-color: #000000;
+  border: none;
+  color: #E4E5E5;
+  text-align: center;
+  font-size: 20px;
+  padding: 1px;
+  width: 500px;
+  height: 50px;
+  transition: all 0.5s;
+  cursor: pointer; 
+  text-transform: none;
+  font-family: sans-serif;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.shortbox{
+    border-radius: 10px;
+    display: block;
+    background-color: #000000;
+    width: 900px;
+    align-self: auto;
+    text-align: center;
+    margin: auto;
+    margin-top: auto;
+    border: 5px solid #D7263D;
+}
+
+.introbutton{
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin: auto;
+    border-radius: 60px; 
+    border: 2px solid #000000;
+    border-style: groove;
+    width: 200px;
+    height: 30px;
+    color: #000000;
+    background-color: #D7263D;
+    font-family: monospace;
+}
+
+.introbutton:hover{
+    
+    transition: 0.8s, ease;
+    background: #D5DEC4;
+}
+
+
+.infobutton{
+    
+     display: block;
+    margin-left: 350px;
+    border-radius: 60px; 
+    border: 2px solid #000000;
+    border-style: groove;
+    width: 200px;
+    height: 30px;
+    color: #000000;
+    background-color: #D7263D;
+    font-family: monospace;
+}
+
+.infobutton:hover{
+    
+    transition: 0.8s, ease;
+    background: #D5DEC4;
+}
+
+.listbutton{
+    
+     display: block;
+    margin-left: 350px;
+    border-radius: 60px; 
+    border: 2px solid #000000;
+    border-style: groove;
+    width: 200px;
+    height: 30px;
+    color: #000000;
+    background-color: #D7263D;
+    font-family: monospace;
+    margin-bottom: 20px;
+}
+
+.listbutton:hover{
+    
+    transition: 0.8s, ease;
+    background: #D5DEC4;
+}
+
+.ign{
+    color: #FF0000;
+}
+ body::-webkit-scrollbar {width:0}
+
+
+#scrollPath{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 10px;
+    height: 60%;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+#progressbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 13px;
+    background: linear-gradient(to top, #FF0000, #000000);
+    animation: animate 5s linear infinite;
+}
+@keyframes animate
+{
+    0%,100%
+    {
+        filter: hue-rotate(0deg);
+    }
+    50%
+    {
+        filter: hue-rotate(360deg);
+    }
+}
+
+#progressbar:before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #FF0000, #000000);
+    filter: blur(10px);
+}
+
+#progressbar:after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, #FF0000, #000000);
+    filter: blur(30px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
