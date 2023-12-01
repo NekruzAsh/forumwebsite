@@ -6,3 +6,9 @@ users will be able to login/signup.
 * Programming a backend server to handle user account creation.
 * Developing a signup/login page with a practical user-experience design.
 * Implementing different JavaScript animations for a better user-experience.
+
+# Testing - run the following
+* npm install express
+* npm install mongoose
+* npm install bcrypt
+* npm install ejs 
