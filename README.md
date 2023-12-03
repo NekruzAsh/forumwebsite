@@ -14,4 +14,5 @@ hash the user passwords for better security.
 * npm install express
 * npm install mongoose
 * npm install bcrypt
-* npm install ejs 
+* npm install ejs
+* nodemon src/index.js to see the live server preview of the page.
