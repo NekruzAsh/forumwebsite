@@ -1,24 +1,31 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
+
 }
 
-body{
 
+
+body {
+
+    background-image: url(pexels-scott-webb-593158.jpg);
     height: 100vh;
     display: flex;
-    align-items: center;    
+    align-items: center;
     justify-content: center;
 }
 
-h2{
+h2 {
+
+    text-shadow: 1.5px 1.5px #000000;
+    text-decoration-style: dashed;
     text-align: center;
-    font-size: 3rem;
-    color: #000000;
+    font-size: 26px;
+    color: #ffffff;
     font-weight: 950;
-    font-family: serif;
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 30px;
 
 }
@@ -26,12 +33,13 @@ h2{
 
 .form-container {
 
+
     width: 300px;
     margin: 0 auto;
     padding: 20px;
     border: 1px solid #332a2a;
     border-radius: 5px;
-
+    background-color: rgb(206, 49, 49)
 }
 
 .form-group {
@@ -42,10 +50,11 @@ h2{
 
 .form-group label {
 
+    font-family: 'Montserrat', sans-serif;
     display: block;
     font-weight: bold;
     margin-bottom: 5px;
-    
+
 }
 
 .form-group input {
@@ -63,7 +72,7 @@ h2{
     width: 100%;
     padding: 10px;
     border: none;
-    background-color: #c41a31;
+    background-color: #530202;
     border-radius: 5px;
     font-size: 1rem;
     color: #ffffff;
@@ -74,7 +83,7 @@ h2{
 }
 
 .submit-butn:hover {
-    background-color: #c51628;
+    background-color: #960303;
 }
 
 .submit-butn:after {
@@ -97,12 +106,12 @@ h2{
     transition: 0s
 }
 
-p{
+p {
 
     text-align: center;
     font-size: 1.2rem;
     color: #000000;
     font-weight: 500;
-    font-family: serif;
+    font-family: 'Montserrat', sans-serif;
     margin-top: 20px;
 }
