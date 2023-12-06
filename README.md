@@ -9,6 +9,7 @@ hash the user passwords for better security.
 * Solve the duplicate account problem and Mongo DB Atlas cloud database connectivity issues. 
 * Develop a signup/login page with a practical user-experience design.
 * Implement different JavaScript animations for a better user-experience.
+* Debugging the code with Lighthouse.
 
 # Testing - run the following
 * npm install express
