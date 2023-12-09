@@ -62,7 +62,7 @@ app.post("/login", async (req, res) => {
       check.password
     );
     if (validPassword) {
-      res.render("home");
+      res.render("index");
     } else {
       req.send("Incorrect Password");
     }
