@@ -1,6 +1,6 @@
-require('dotenv').config();
+
 const mongoose = require("mongoose");
-const connect = mongoose.connect(process.env.mongoURL);
+const connect = mongoose.connect("mongodb+srv://niko:A0y3B3TYjqY7WOjP@login.sjeam6h.mongodb.net/?retryWrites=true&w=majority");
 
 connect
   .then(() => {
